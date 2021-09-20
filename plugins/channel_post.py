@@ -1,5 +1,5 @@
 #(©)Codexbotz
-#(©)ColdOnez
+#(©)Cold_Onez
 
 import asyncio
 from pyrogram import filters, Client
