@@ -16,9 +16,9 @@ from database.sql import add_user, query_msg
 
 
 
-WAIT_MSG = """"<b>Processing ...</b>"""
+WAIT_MSG = """"<b>Processing...🏃🏻‍♂</b>"""
 
-REPLY_ERROR = """<code>Use this command as a replay to any telegram message with out any spaces.</code>"""
+REPLY_ERROR = """<code>Use This Command As a Replay To Any Telegram Message WithOut Any Spaces.</code>"""
 
 
 #=====================================================================================##
@@ -62,7 +62,7 @@ async def start_command(client: Client, message: Message):
         try:
             messages = await get_messages(client, ids)
         except:
-            await message.reply_text("Something went wrong..!")
+            await message.reply_text("Something went wrong..😐")
             return
         await temp_msg.delete()
 
@@ -91,8 +91,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("⚡️ Aʙᴏᴜᴛ Mᴇ", callback_data = "about"),
+                    InlineKeyboardButton("🔒 Cʟᴏsᴇ", callback_data = "close")
                 ]
             ]
         )
@@ -115,7 +115,7 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "Join Channel",
+                "Jᴏɪɴ Cʜᴀɴɴᴇʟ",
                 url = client.invitelink)
         ]
     ]
@@ -123,7 +123,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'Try Again',
+                    text = 'Tʀʏ Aɢᴀɪɴ',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
