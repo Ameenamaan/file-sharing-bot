@@ -1,4 +1,5 @@
 #(©)Codexbotz
+#(©)Cold_Onez
 
 from pyrogram import __version__
 from bot import Bot
@@ -10,7 +11,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://github.com/CodeXBotz/File-Sharing-Bot'>Click here</a>\n○ Channel : @CodeXBotz\n○ Support Group : @CodeXBotzSupport</b>",
+            text = f"<b>○ Mᴀsᴛᴇʀ : <a href='https://t.me/COLD_ONEZ'>Cᴏʟᴅ々Oɴᴇᴢ࿐</a>\n○ Lᴀɴɢᴜᴀɢᴇ : <code>Python3</code>\n○ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://github.com/COLD-ONEZ/Multi-Files-Share'>Click Here</a>\n○ Cʜᴀɴɴᴇʟ : @Mo_Tech_YT\n○ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ : @Mo_Tech_Group</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
