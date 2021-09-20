@@ -41,6 +41,10 @@
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
       "value": "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
     },
+    "DISABLE_CHANNEL_BUTTON": {
+      "description": "Set True if You Want Disable Your Channel Posts Share Button",
+      "value": "True"
+    },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
       "value": "",
