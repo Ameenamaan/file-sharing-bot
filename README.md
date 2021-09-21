@@ -45,10 +45,9 @@ I Guess This Will Be Usefull For Many People.....😇.
 ### Installation
 #### Deploy on Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/COLD-ONEZ/File-SHare-Bot)</br>
-<a href="https://youtu.be/LCrkRTMkmzE">
+<a href="https://youtu.be/ep3u-n_DI_Q">
   <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
 </a><br>
-**Check This Tutorial Video on YouTube for 
 
 #### Deploy in your VPS
 ````bash
