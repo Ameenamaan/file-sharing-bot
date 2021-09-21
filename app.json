@@ -1,13 +1,13 @@
 {
-  "name": "TG File Sharing Bot",
-  "description": "file sharing bot store posts and it can access by special links",
+  "name": "File-SHare-Bot",
+  "description": "File Share Bot Store Posts in Db Channel And it Can Access By Special Links",
   "keywords": [
     "telegram",
-    "file",
-    "sharing"
+    "File",
+    "Share"
   ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
-  "logo": "https://telegra.ph/file/14d3013fda21281c54b61.jpg",
+  "repository": "https://github.com/COLD-ONEZ/File-SHare-Bot",
+  "logo": "https://telegra.ph/file/0f3e2323abbfb493ca817.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
