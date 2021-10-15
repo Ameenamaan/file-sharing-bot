@@ -43,7 +43,8 @@
     },
     "CUSTOM_CAPTION":{
       "description": "Set Your Custom Caption Here, Keep None For Disable Custom Caption",
-      "value": "None"
+      "value": "",
+      "required": false
     },
     "DISABLE_CHANNEL_BUTTON": {
       "description": "Set True if You Want Button in Post.",
